@@ -85,7 +85,7 @@ future_dams <- read_csv("../../../../../capstone/netzerohydro/data/raw/FHReD_201
   clean_names()
 
 # Read watershed boundaries at basin level 3
-basin_level3 <- st_read("../../../../../capstone/netzerohydro/data/raw/hybas_as_lev03_v1c") %>% clean_names()
+basin_level3 <- st_read("../../../../../capstone/netzerohydro/data/raw/hybas_lev3/hybas_as_lev03_v1c") %>% clean_names()
 
 ```
 
